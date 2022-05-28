@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  height: 100vh;
+}
+
+.header {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.item {
+  text-align: center;
+  padding: 5px;
+  background-color: #eee;
+  margin: 6px;
+  cursor:pointer;
+}
+
+.selected {
+  background-color: blue;
+  color: #fff;
+}
+
+.icons {
+  width: 400px;
+  display: flex;
+  padding: 12px;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 40px;
+  right: calc(50vh + 200px);
+}
+
+.icon {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  cursor: pointer;
+  border-radius: 12px;
+}

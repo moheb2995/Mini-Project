@@ -1,0 +1,49 @@
+nav{
+  /* background-color: blue; */
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: rgb(116, 91, 231);
+  line-height: 1.6; 
+}
+
+.ma{
+  margin: 5%;
+}
+
+.block{
+  display: block;
+}
+
+.none{
+  display: none;
+}
+
+img{
+  height: 90vh;
+}
+
+button{
+  font-size:large;
+}
+
+.pa{
+  padding: 2%;
+}
+
+.none{
+  display: none;
+}
+
+.block{
+  display: block;
+}
